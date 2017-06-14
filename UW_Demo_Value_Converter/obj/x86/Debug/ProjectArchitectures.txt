@@ -1,0 +1,1 @@
+c:\users\tran\documents\visual studio 2017\Projects\UW_Demo_Value_Converter\UW_Demo_Value_Converter\UW_Demo_Value_Converter.csproj;x86

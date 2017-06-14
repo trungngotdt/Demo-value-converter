@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="UW_Demo_Value_Converter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UW_Demo_Value_Converter"
+    xmlns:self="using:UW_Demo_Value_Converter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <StackPanel.Resources>
+                <self:Age x:Key="Age"></self:Age>
+            </StackPanel.Resources>
+            <CalendarDatePicker x:Name="Dpk_a"></CalendarDatePicker>
+            <TextBlock Text="{Binding ElementName=Dpk_a
+                       ,Path=Date,Converter={StaticResource ResourceKey=Age}}"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
