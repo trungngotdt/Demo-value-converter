@@ -1,0 +1,1 @@
+C:\Users\Tran\Documents\Git\Demo-value-converter\UW_Demo_Value_Converter\UW_Demo_Value_Converter.csproj;arm
